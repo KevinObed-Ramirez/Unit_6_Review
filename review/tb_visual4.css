@@ -6,8 +6,8 @@
    Review Assignment
    
    Individuals Design Style Sheet at Tree and Book
-   Author: 
-   Date:   
+   Author: Kevin Ramirez
+   Date:   10-8-19
    
    Filename: tb_visual4.css
 
@@ -15,9 +15,29 @@
 
 
 /* Transformation Styles */
-
-
-
-/* Filter Styles */
-
+article{
+   perspective: 800px;
+ }
+ figure#figure1{
+   transform:translatez(-120px);
+ }
+ figure#figure2{
+   transform:translatey(-20px) rotatey(50deg);
+ }
+ figure#figure3{
+   transform:translatey(-30px) rotatey(-50deg);
+ }
+ /* Filter Styles */
+ figure#figure3{
+   -webkit-filter: saturate(1.3);
+   filter: saturate(1.3);
+ }
+ figure#figure3{
+   -webkit-filter: brightness(0.8) contrast(1.5);
+   filter: brightness(0.8) contrast(1.5);
+ }
+ figure#figure3{
+   -webkit-filter: hue-rotate(170deg) saturate(3) brightness(1.5);
+   filter: hue-rotate(170deg) saturate(3) brightness(1.5);
+ }
 
